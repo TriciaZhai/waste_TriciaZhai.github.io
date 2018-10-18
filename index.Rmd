@@ -6,6 +6,11 @@ title: "Welcome !"
 
 And I can put all kinds of stuff on it!
 
+## I add code
+
+
+
+
 ### Add some links:
 
 I like [google](https://www.google.com).
@@ -15,8 +20,8 @@ Something [about this page](about.html)
 
 as a kid:
 
-<img src="images/kid.jpg" style="width:75%">
+<img src="image/kid.jpg" style="width:75%">
 
 as a runner:
 
-<img src="images/run.jpg" style="width:75%">
+<img src="image/run.jpg" style="width:75%">
