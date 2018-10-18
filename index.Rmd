@@ -1,7 +1,22 @@
 ---
-title: "Holy cow!"
+title: "Welcome !"
 ---
 
-### I have a webpage!
+### I am a biostatistics student learning data science in R !
 
 And I can put all kinds of stuff on it!
+
+### Add some links:
+
+I like [google](https://www.google.com).
+Something [about this page](about.html)
+
+## Me as a human
+
+as a kid:
+
+<img src="images/kid.jpg" style="width:75%">
+
+as a runner:
+
+<img src="images/run.jpg" style="width:75%">
