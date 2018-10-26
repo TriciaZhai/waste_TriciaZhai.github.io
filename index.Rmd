@@ -1,27 +1,51 @@
 ---
-title: "Welcome !"
+title: "Welcome to My page !"
+output:
+  html_document: 
+    toc: true
+    toc_float: true
 ---
 
 ### I am a biostatistics student learning data science in R !
 
-And I can put all kinds of stuff on it!
+I am Tricia Zhai. Born and raised in China. Now studying in Columbia University Mailman School of Public Health, in NYC. 
+Life is beautiful and I wish everybody have a health and happy life.
+I was in medicine, trying to help people and found out still too much is unknow. Now I study biostatistics, wish I can contribute my efforts to medical research in the future. I believe science and technology can make the world healthier and happier. Trying my best to learn as much as I can !
 
 ## I add code
 
 
 
 
-### Add some links:
+### Links:
+[Email](cz2544@cumc.columbia.edu)
 
-I like [google](https://www.google.com).
-Something [about this page](about.html)
+[Github](https://github.com/TriciaZhai)
+
+[Linkin](https://www.linkedin.com/in/chunxiao-zhai-71b655131/)
+
+[Resume](resume.pdf)
 
 ## Me as a human
-
-as a kid:
+as a kid:\
 
 <img src="image/kid.jpg" style="width:75%">
 
-as a runner:
+as a runner:\
 
 <img src="image/run.jpg" style="width:75%">
+
+## What I did before
+My note:\
+
+<img src="image/IMG_0365.jpg" style="width:75%">
+
+My rat femoral AV fistula: \
+<img src="image/fistula.mp4" style="width:75%">
+
+## What I do now
+
+
+
+
+

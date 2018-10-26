@@ -1,0 +1,84 @@
+---
+title: "resume"
+author: "Chunxiao Zhai"
+date: "10/26/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+##Tricia Zhai
+
+##EDUCATION
+#Columbia University Mailman School of Public Health  New York
+Master of Biostatistics, Graduating May 2020
+
+#Fudan University Shanghai Medical Center   Shanghai, China
+Bachelor of Medicine (MD equivalent)  Graduated July 2013
+• Eisai Pharma Scholarship,2012
+• Medical Student of the Year (Nomination Award), 2011 2009-2011 
+• People’s Scholarship, Shanghai 2016 - 2017
+
+##SKILLS
+Computer : R, SAS, SPSS, Excel, Latex, Word 
+Language : English(fluent), Chinese(Native)
+
+
+##EXPERIENCE
+#Reeven Capital
+Healthcare investment Department: 
+Analyst 2016 - 2017
+
+• Investigated four biomedical startups in China (Pre-CFDA Type II Device, Ge- netic diagnostics, Innovative medication in infectious disease, CAR-T therapy)
+
+• Conducteded in-field due diligence, produced reports on domestic and interna-
+tional investment targets, participated in 14 industry conferences.
+
+#Shanghai Jiaotong University School of Medicine Affiliated 9th people’s hospital
+Plastic and Reconstructive Surgery Department: 
+Surgical Resident 2013 - 2016
+
+• Trained in inpatient and outpatient settings. Focused in scar treatment, recon- structive microsurgery and aesthetic laser surgery.
+
+• Rotated in Ophthalmology/Orbital Surgery, ENT and Dermatology .
+
+• Designed an conducted clinical study in evaluating non-ablative laser therapy
+for keloids with novel imaging system.
+
+• Conducted research in low-frequency ultrasound assisted liposomal drug deliv-
+ery in animal models.
+
+
+#Fudan University Shanghai Medical Center
+Chunmin Liang’s Lab, Department of Anatomy and histology: 
+Undergraduate Student Researcher 2009 - 2012
+
+• Presented regularly in journal clubs, seminars. Focused on topics in innate immune system function in cancer and animal model in Alzheimer’s disease.
+
+• Participated regularly in animal experiments and cell culture. 
+
+
+
+
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
