@@ -44,6 +44,12 @@ My rat femoral AV fistula: \
 <img src="image/fistula.mp4" style="width:75%">
 
 ## What I do now
+```{r}
+library(tidyverse)
+weekdays = c(weekdays(.leap.seconds))
+
+```
+
 
 
 

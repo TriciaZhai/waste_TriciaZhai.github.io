@@ -11,4 +11,5 @@ navbar:
       href: http://github.com/<TriciaZhai>/
 output:
   html_document:
-    theme: simplex
+    theme: lumen
+  
