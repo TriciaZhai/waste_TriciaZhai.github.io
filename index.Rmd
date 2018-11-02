@@ -46,31 +46,31 @@ My rat femoral AV fistula: \
 ## What I do now
 ```{r}
 library(tidyverse)
-
-weekdays = head(weekdays(.leap.seconds), 7) %>% 
-
 today = Sys.Date()
-week = c(3:9) + today
-day = factor( weekdays(week), levels = c("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"))
-
-
-for(as.numeric(day) in 1:7){
-  to_do()
-}
-  
-to_do = function(x){
-  if (as.numeric(x) < 5) {
-    stop("Go to classes, do homework, gym, sleep")
-  } else if (as.numeric(x) == 5) {
-    stop("do homework, gym, food shopping, sleep")
+week = c(0:6) + today
+to_do = function(x)
+  {
+  if (weekdays(x) == "Monday") 
+    {
+    paste("Go to classes, do homework, gym, sleep")
+  } 
+  else if (weekdays(x) == "Tuesday") {
+      paste("Go to classes, food shopping, do homework, sleep")
   }
-    stop("go out play, cook, sleep")
+  else if (weekdays(x) == "Wedsday") {
+      paste("Go to classes, do homework, gym, sleep")
+  }
+  else if (weekdays(x) == "Thursday") {
+      paste("Go to classes, watch kids in PS128, Go to class, sleep")
+      }
+  else if (weekdays(x) == "Friday") {
+      paste("do homework, gym, sleep")
+      }
+    paste("go out, cook, sleep")
 }
 
-
-vec_1 = c("do homework", "gym", "food shopping", "sleep")
-vec_2 = c(rbinom(4,1, 0.6))
-vec_1*vec_2
+tibble(week, to_do(week))
+knitr::kable(week, to_do(week)) 
 ```
 
 
