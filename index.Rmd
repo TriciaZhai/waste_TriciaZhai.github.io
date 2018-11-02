@@ -69,7 +69,12 @@ to_do = function(x)
     paste("go out, cook, sleep")
 }
 
-tibble(week, to_do(week))
+output = vector("list", length = 7)
+for(i in 1:7){
+  output[[i]] = to_do(week[[i]]) 
+}
+
+tibble(week, to_do(week[[4]]))
 knitr::kable(week, to_do(week)) 
 ```
 
