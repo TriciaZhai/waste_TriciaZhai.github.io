@@ -44,38 +44,35 @@ My rat femoral AV fistula: \
 <img src="image/fistula.mp4" style="width:75%">
 
 ## What I do now
-```{r}
+```{r plan_coming_week}
 library(tidyverse)
 today = Sys.Date()
 week = c(0:6) + today
+week_end_pool = 
+  tibble(
+  week_end = c("go to park", "do home work", "gym", "group study", "go to a musical","dinner party", "meal prep"))
+week_day_pool = 
+  tibble(
+  week_day = c("do home work", "gym", "group study", "go to lecture"))
+
+
 to_do = function(x)
   {
-  if (weekdays(x) == "Monday") 
+  if (weekdays(x) %in% c("Saturday", "Sunday"))
     {
-    paste("Go to classes, do homework, gym, sleep")
-  } 
-  else if (weekdays(x) == "Tuesday") {
-      paste("Go to classes, food shopping, do homework, sleep")
+    paste(sample_n(week_end_pool, 2), sep = ",")
+    #stop("weekend, yay!")
+    } 
+  else{
+   paste("go to class", sample_n(week_day_pool, 2), sep = ",")}
   }
-  else if (weekdays(x) == "Wedsday") {
-      paste("Go to classes, do homework, gym, sleep")
-  }
-  else if (weekdays(x) == "Thursday") {
-      paste("Go to classes, watch kids in PS128, Go to class, sleep")
-      }
-  else if (weekdays(x) == "Friday") {
-      paste("do homework, gym, sleep")
-      }
-    paste("go out, cook, sleep")
-}
 
 output = vector("list", length = 7)
-for(i in 1:7){
+for (i in 1:7) {
   output[[i]] = to_do(week[[i]]) 
 }
 
-tibble(week, to_do(week[[4]]))
-knitr::kable(week, to_do(week)) 
+knitr::kable(tibble(weekdays(week), output)) 
 ```
 
 
